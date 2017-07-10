@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#"
+     xml:base="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLObjectProperty_a122c0a1_28f0_4d0e_bd71_e8906c670451 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLObjectProperty_a122c0a1_28f0_4d0e_bd71_e8906c670451">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_5407bf77_e38f_449a_a103_aa3bcc74bed1"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_77510e9d_132d_4d0b_b45d_b72bd62e3aa6"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_363cfc44_94c3_472b_a109_f56c29d51206"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_3e3ecb4b_7a55_410f_b03c_31719aa2038d"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_8e91a852_51f4_43bc_a854_4189c1169222"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_a3b74b02_91f6_4c3c_8ce4_d6d65df26288"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_c793e07e_b964_4bbe_9a52_d0d82a895e70"/>
+        <rdfs:label xml:lang="en">IsOn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_11f524dd_2512_4d53_8b6d_111d1aaead13 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_11f524dd_2512_4d53_8b6d_111d1aaead13">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+        <rdfs:label xml:lang="en">Older</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_2faac4c4_2bdc_441c_ae11_8fda7a77d352 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_2faac4c4_2bdc_441c_ae11_8fda7a77d352">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+        <rdfs:label xml:lang="en">Motorbike</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_363cfc44_94c3_472b_a109_f56c29d51206 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_363cfc44_94c3_472b_a109_f56c29d51206">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
+        <rdfs:label xml:lang="en">Sidewalk_Ramp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_3e3ecb4b_7a55_410f_b03c_31719aa2038d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_3e3ecb4b_7a55_410f_b03c_31719aa2038d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
+        <rdfs:label xml:lang="en">Tram_Rails</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_3f31523e_bec1_4933_8004_e073bfcd1cf8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_3f31523e_bec1_4933_8004_e073bfcd1cf8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+        <rdfs:label xml:lang="en">Elderly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_77510e9d_132d_4d0b_b45d_b72bd62e3aa6"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+        <rdfs:label xml:lang="en">Pedestrian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_449114d1_2cd8_475f_b4da_aeca30d468bb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_449114d1_2cd8_475f_b4da_aeca30d468bb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+        <rdfs:label xml:lang="en">Emergency_Vehicle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_4589e918_35b7_48ad_bf80_291a3caac4d6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_4589e918_35b7_48ad_bf80_291a3caac4d6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+        <rdfs:label xml:lang="en">Adult</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_5407bf77_e38f_449a_a103_aa3bcc74bed1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_5407bf77_e38f_449a_a103_aa3bcc74bed1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
+        <rdfs:label xml:lang="en">Obstacle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_6750782a_b01c_46c7_ab9c_afe625bcf52b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_6750782a_b01c_46c7_ab9c_afe625bcf52b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+        <rdfs:label xml:lang="en">Young</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_70d0cdc9_bd51_4d70_9b69_338d72ef47da -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_70d0cdc9_bd51_4d70_9b69_338d72ef47da">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_aab152c0_f963_4c11_9996_c0385d3b1894"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_77510e9d_132d_4d0b_b45d_b72bd62e3aa6"/>
+        <rdfs:label xml:lang="en">Static_Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_722d8eeb_3fbb_4e29_a8b4_929c6b56ae0b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_722d8eeb_3fbb_4e29_a8b4_929c6b56ae0b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+        <rdfs:label xml:lang="en">Child</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_74b48c79_a792_42d5_a66a_9e63aae5d41e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_74b48c79_a792_42d5_a66a_9e63aae5d41e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+        <rdfs:label xml:lang="en">Bicycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_7575562e_e51a_4971_9461_00ad8a7112b4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_7575562e_e51a_4971_9461_00ad8a7112b4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
+        <rdfs:label xml:lang="en">Pedestrian_Crossing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_77510e9d_132d_4d0b_b45d_b72bd62e3aa6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_77510e9d_132d_4d0b_b45d_b72bd62e3aa6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_aab152c0_f963_4c11_9996_c0385d3b1894"/>
+        <rdfs:label xml:lang="en">Mobile_Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_7c3e80d1_f589_42d4_9738_a920da849351 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_7c3e80d1_f589_42d4_9738_a920da849351">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+        <rdfs:label xml:lang="en">Truck</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_829a29a3_01e7_4039_9963_21fd9c64540e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_829a29a3_01e7_4039_9963_21fd9c64540e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+        <rdfs:label xml:lang="en">Tram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_8e91a852_51f4_43bc_a854_4189c1169222 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_8e91a852_51f4_43bc_a854_4189c1169222">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
+        <rdfs:label xml:lang="en">Road_Lane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9687b53e_9be4_4edc_92df_058b38a51d15 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9687b53e_9be4_4edc_92df_058b38a51d15">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_a3b74b02_91f6_4c3c_8ce4_d6d65df26288"/>
+        <rdfs:label xml:lang="en">Road_Without_Crossing_Lines_Nor_Traffic_Light</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_96a86f97_ff00_4b23_b0b9_921e0ff47627 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_96a86f97_ff00_4b23_b0b9_921e0ff47627">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
+        <rdfs:label xml:lang="en">Signal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_77510e9d_132d_4d0b_b45d_b72bd62e3aa6"/>
+        <rdfs:label xml:lang="en">Vehicle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_a3b74b02_91f6_4c3c_8ce4_d6d65df26288 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_a3b74b02_91f6_4c3c_8ce4_d6d65df26288">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_70d0cdc9_bd51_4d70_9b69_338d72ef47da"/>
+        <rdfs:label xml:lang="en">Road_Intersection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_aab152c0_f963_4c11_9996_c0385d3b1894 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_aab152c0_f963_4c11_9996_c0385d3b1894">
+        <rdfs:label xml:lang="en">Context_Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_c17eb0bf_4e7f_45ff_a354_2ed2dd4ba8ad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_c17eb0bf_4e7f_45ff_a354_2ed2dd4ba8ad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+        <rdfs:label xml:lang="en">Car</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_c793e07e_b964_4bbe_9a52_d0d82a895e70 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_c793e07e_b964_4bbe_9a52_d0d82a895e70">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
+        <rdfs:label xml:lang="en">Bicycle_Lane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_d775d8e8_8b51_4cd1_aedd_552d1e73428e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_d775d8e8_8b51_4cd1_aedd_552d1e73428e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
+        <rdfs:label xml:lang="en">Traffic_Light</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_ddfde9ad_d1da_4c87_9409_1c17e3a25502 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_ddfde9ad_d1da_4c87_9409_1c17e3a25502">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+        <rdfs:label xml:lang="en">Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_df04c722_d9ed_454c_bf95_2e879848bc9a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_df04c722_d9ed_454c_bf95_2e879848bc9a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+        <rdfs:label xml:lang="en">Van</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e00bf44f_ad40_4b16_b699_7e2bfe620348 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e00bf44f_ad40_4b16_b699_7e2bfe620348">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_a3b74b02_91f6_4c3c_8ce4_d6d65df26288"/>
+        <rdfs:label xml:lang="en">Crossing_Lines_With_Traffic_Light</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e4739e20_6960_47f1_8b90_974d26d8ebc3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e4739e20_6960_47f1_8b90_974d26d8ebc3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_a3b74b02_91f6_4c3c_8ce4_d6d65df26288"/>
+        <rdfs:label xml:lang="en">Crossing_Lines</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_70d0cdc9_bd51_4d70_9b69_338d72ef47da"/>
+        <rdfs:label xml:lang="en">Road_Infrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_11f524dd_2512_4d53_8b6d_111d1aaead13"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_3f31523e_bec1_4933_8004_e073bfcd1cf8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_4589e918_35b7_48ad_bf80_291a3caac4d6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_6750782a_b01c_46c7_ab9c_afe625bcf52b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_722d8eeb_3fbb_4e29_a8b4_929c6b56ae0b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_ddfde9ad_d1da_4c87_9409_1c17e3a25502"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_2faac4c4_2bdc_441c_ae11_8fda7a77d352"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_449114d1_2cd8_475f_b4da_aeca30d468bb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_74b48c79_a792_42d5_a66a_9e63aae5d41e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_7c3e80d1_f589_42d4_9738_a920da849351"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_829a29a3_01e7_4039_9963_21fd9c64540e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_c17eb0bf_4e7f_45ff_a354_2ed2dd4ba8ad"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_df04c722_d9ed_454c_bf95_2e879848bc9a"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_3e3ecb4b_7a55_410f_b03c_31719aa2038d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_5407bf77_e38f_449a_a103_aa3bcc74bed1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_7575562e_e51a_4971_9461_00ad8a7112b4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_8e91a852_51f4_43bc_a854_4189c1169222"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_96a86f97_ff00_4b23_b0b9_921e0ff47627"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_c793e07e_b964_4bbe_9a52_d0d82a895e70"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_d775d8e8_8b51_4cd1_aedd_552d1e73428e"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
