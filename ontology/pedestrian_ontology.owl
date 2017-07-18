@@ -4,9 +4,29 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
     
 
 
@@ -34,6 +54,24 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_a3b74b02_91f6_4c3c_8ce4_d6d65df26288"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_a3b74b02_91f6_4c3c_8ce4_d6d65df26288"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_a3b74b02_91f6_4c3c_8ce4_d6d65df26288"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLObjectProperty_d8c38c7a_35bd_4c0a_bc37_8b4b66018fbd"/>
         <rdfs:label xml:lang="it">IsToReach</rdfs:label>
     </owl:ObjectProperty>
     
@@ -42,6 +80,7 @@
     <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLObjectProperty_a122c0a1_28f0_4d0e_bd71_e8906c670451 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLObjectProperty_a122c0a1_28f0_4d0e_bd71_e8906c670451">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain>
@@ -55,6 +94,7 @@
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_a3b74b02_91f6_4c3c_8ce4_d6d65df26288"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
                 </owl:unionOf>
@@ -69,7 +109,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLObjectProperty_d8c38c7a_35bd_4c0a_bc37_8b4b66018fbd">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -78,10 +117,19 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_a3b74b02_91f6_4c3c_8ce4_d6d65df26288"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_a3b74b02_91f6_4c3c_8ce4_d6d65df26288"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_a3b74b02_91f6_4c3c_8ce4_d6d65df26288"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
                 </owl:unionOf>
@@ -129,6 +177,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLDataProperty_43f1a5b5_49a0_43d3_b35e_5ab7c4c77e6e">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_aab152c0_f963_4c11_9996_c0385d3b1894"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e00bf44f_ad40_4b16_b699_7e2bfe620348"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The traffic light should be one between red, yellow and green</rdfs:comment>
@@ -225,6 +274,8 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLDataProperty_8d2a5d34_9578_4d95_87da_3db5e42af310">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_449114d1_2cd8_475f_b4da_aeca30d468bb"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_77510e9d_132d_4d0b_b45d_b72bd62e3aa6"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label xml:lang="it">InEmergency</rdfs:label>
     </owl:DatatypeProperty>
@@ -248,6 +299,17 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLDataProperty_93daa267_06db_4dff_b5d1_dd3aaf003cab"/>
         <rdfs:label xml:lang="it">Has_To_Accelerate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLDataProperty_92ae9c88_4adf_467e_996a_0389cc0c5762 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLDataProperty_92ae9c88_4adf_467e_996a_0389cc0c5762">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_363cfc44_94c3_472b_a109_f56c29d51206"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label xml:lang="it">Radius</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -347,7 +409,16 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
     <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_2faac4c4_2bdc_441c_ae11_8fda7a77d352 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_2faac4c4_2bdc_441c_ae11_8fda7a77d352">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_77510e9d_132d_4d0b_b45d_b72bd62e3aa6"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Motorbike</rdfs:label>
     </owl:Class>
     
@@ -356,6 +427,7 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
     <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_363cfc44_94c3_472b_a109_f56c29d51206 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_363cfc44_94c3_472b_a109_f56c29d51206">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_aab152c0_f963_4c11_9996_c0385d3b1894"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
         <rdfs:label xml:lang="en">Curb</rdfs:label>
     </owl:Class>
@@ -365,6 +437,8 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
     <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_3e3ecb4b_7a55_410f_b03c_31719aa2038d -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_3e3ecb4b_7a55_410f_b03c_31719aa2038d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_70d0cdc9_bd51_4d70_9b69_338d72ef47da"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_aab152c0_f963_4c11_9996_c0385d3b1894"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
         <rdfs:label xml:lang="en">Sidewalk</rdfs:label>
     </owl:Class>
@@ -395,6 +469,14 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_449114d1_2cd8_475f_b4da_aeca30d468bb">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Emergency_Vehicle</rdfs:label>
     </owl:Class>
     
@@ -414,6 +496,7 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_6750782a_b01c_46c7_ab9c_afe625bcf52b">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_77510e9d_132d_4d0b_b45d_b72bd62e3aa6"/>
         <rdfs:comment>Age 26-</rdfs:comment>
         <rdfs:label xml:lang="en">Young</rdfs:label>
     </owl:Class>
@@ -452,6 +535,7 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_7c3e80d1_f589_42d4_9738_a920da849351">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_aab152c0_f963_4c11_9996_c0385d3b1894"/>
         <rdfs:label xml:lang="en">Truck</rdfs:label>
     </owl:Class>
     
@@ -461,6 +545,14 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_829a29a3_01e7_4039_9963_21fd9c64540e">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Tram</rdfs:label>
     </owl:Class>
     
@@ -469,6 +561,8 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
     <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_8e91a852_51f4_43bc_a854_4189c1169222 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_8e91a852_51f4_43bc_a854_4189c1169222">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_70d0cdc9_bd51_4d70_9b69_338d72ef47da"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_aab152c0_f963_4c11_9996_c0385d3b1894"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
         <rdfs:label xml:lang="en">Road_Lane</rdfs:label>
     </owl:Class>
@@ -479,6 +573,14 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_77510e9d_132d_4d0b_b45d_b72bd62e3aa6"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Vehicle</rdfs:label>
     </owl:Class>
     
@@ -505,7 +607,16 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
     <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_c17eb0bf_4e7f_45ff_a354_2ed2dd4ba8ad -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_c17eb0bf_4e7f_45ff_a354_2ed2dd4ba8ad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_77510e9d_132d_4d0b_b45d_b72bd62e3aa6"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Car</rdfs:label>
     </owl:Class>
     
@@ -515,6 +626,16 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_ddfde9ad_d1da_4c87_9409_1c17e3a25502">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_3f31523e_bec1_4933_8004_e073bfcd1cf8"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_4589e918_35b7_48ad_bf80_291a3caac4d6"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_6750782a_b01c_46c7_ab9c_afe625bcf52b"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_ddfde9ad_d1da_4c87_9409_1c17e3a25502"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Group</rdfs:label>
     </owl:Class>
     
@@ -524,6 +645,7 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_df04c722_d9ed_454c_bf95_2e879848bc9a">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_9769710b_9aef_47a6_9e7b_8d1abc87d9b1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_aab152c0_f963_4c11_9996_c0385d3b1894"/>
         <rdfs:label xml:lang="en">Van</rdfs:label>
     </owl:Class>
     
@@ -559,6 +681,70 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLNamedIndividual_39b17b88_254b_41d7_ab9d_fcc905ae1087 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLNamedIndividual_39b17b88_254b_41d7_ab9d_fcc905ae1087">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_3e3ecb4b_7a55_410f_b03c_31719aa2038d"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_70d0cdc9_bd51_4d70_9b69_338d72ef47da"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_a3b74b02_91f6_4c3c_8ce4_d6d65df26288"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_e97fb3df_e317_4df2_9a66_9a3595a22c32"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdfs:label xml:lang="it">Viale_Padova_Sidewalk</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLNamedIndividual_39b17b88_254b_41d7_ab9d_fcc905ae1087"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLObjectProperty_076180d6_6289_497e_8b33_2023960ae06a"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLNamedIndividual_4eb429aa_a006_409b_9167_c8593127c745"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLNamedIndividual_39b17b88_254b_41d7_ab9d_fcc905ae1087"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLObjectProperty_a122c0a1_28f0_4d0e_bd71_e8906c670451"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLNamedIndividual_39b17b88_254b_41d7_ab9d_fcc905ae1087"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLNamedIndividual_4eb429aa_a006_409b_9167_c8593127c745 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLNamedIndividual_4eb429aa_a006_409b_9167_c8593127c745">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_363cfc44_94c3_472b_a109_f56c29d51206"/>
+        <OWLDataProperty_92ae9c88_4adf_467e_996a_0389cc0c5762 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</OWLDataProperty_92ae9c88_4adf_467e_996a_0389cc0c5762>
+        <rdfs:label xml:lang="it">C1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLNamedIndividual_aea521ae_6a60_4d62_b808_e81aac5975df -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLNamedIndividual_aea521ae_6a60_4d62_b808_e81aac5975df">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_3f31523e_bec1_4933_8004_e073bfcd1cf8"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_77510e9d_132d_4d0b_b45d_b72bd62e3aa6"/>
+        <OWLObjectProperty_a122c0a1_28f0_4d0e_bd71_e8906c670451 rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLNamedIndividual_39b17b88_254b_41d7_ab9d_fcc905ae1087"/>
+        <OWLDataProperty_c2f7f107_6cd1_4781_a2ee_ef56424f4b7f rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</OWLDataProperty_c2f7f107_6cd1_4781_a2ee_ef56424f4b7f>
+        <rdfs:label xml:lang="it">Grandpa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // General axioms
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -576,13 +762,49 @@ This property has an higher priority than Has_To_Go property.</rdfs:comment>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_df04c722_d9ed_454c_bf95_2e879848bc9a"/>
         </owl:members>
     </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl#ped">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
     <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLObjectProperty_076180d6_6289_497e_8b33_2023960ae06a"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLObjectProperty_a122c0a1_28f0_4d0e_bd71_e8906c670451"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLObjectProperty_d8c38c7a_35bd_4c0a_bc37_8b4b66018fbd"/>
-        </owl:members>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLClass_442b9c44_dc6f_4239_9856_f47588e62bd2"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#ped"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/marcodg/ontologies/2017/6/pedestrian_ontology#OWLDataProperty_5a4411e5_21b6_44fa_be0c_dc32023d13b0"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#ped"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
     </rdf:Description>
 </rdf:RDF>
 
