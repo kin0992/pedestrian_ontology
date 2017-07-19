@@ -530,6 +530,17 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_92f0aa40_ad0e_47b2_b389_5cd0225385b4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_92f0aa40_ad0e_47b2_b389_5cd0225385b4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
+        <OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_a5e21400_9045_4153_8dd6_d616660497b0"/>
+        <OWLDataProperty_07878d9e_7e65_4d56_9470_da7c50c71e38 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</OWLDataProperty_07878d9e_7e65_4d56_9470_da7c50c71e38>
+        <rdfs:label xml:lang="it">Jack</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_a5e21400_9045_4153_8dd6_d616660497b0 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_a5e21400_9045_4153_8dd6_d616660497b0">
@@ -642,28 +653,8 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_3306d328_95fc_4850_8874_65fb20943a6c"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_35045c02_58ec_4b14_b772_45d3c7586d7a"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_3f5ff2ad_5df4_4b16_8b55_a2afddcf07d5"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_625924ad_5983_47c3_88d7_f187fedc7087"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_6c2b60ce_3e2b_409d_ba77_76b9459f108f"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_a5e21400_9045_4153_8dd6_d616660497b0"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_e7be5c31_0960_463d_8181_e51c83805296"/>
-        </owl:distinctMembers>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
-        <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_6c2b60ce_3e2b_409d_ba77_76b9459f108f"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_a5e21400_9045_4153_8dd6_d616660497b0"/>
-        </owl:distinctMembers>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
-        <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_6c2b60ce_3e2b_409d_ba77_76b9459f108f"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_a5e21400_9045_4153_8dd6_d616660497b0"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_e7be5c31_0960_463d_8181_e51c83805296"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
@@ -685,10 +676,7 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#nsc">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#v">
+    <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#szc">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#p">
@@ -700,10 +688,10 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
     <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#s">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#szc">
+    <rdf:Description rdf:about="urn:swrl#nsc">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="urn:swrl#szc">
+    <rdf:Description rdf:about="urn:swrl#v">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="urn:swrl#p">
@@ -715,7 +703,13 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
     <rdf:Description rdf:about="urn:swrl#s">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#szc">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
     <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All Pedestrians can cross if no vehicle is coming</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pedestrian_Crossing_NSZebra_No_Vehicles</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -723,8 +717,8 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_78cd4b2d_3ba1_4244_a3c8_2cc2a7c97c4d"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#szc"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_ef08dcee_090a_41c7_a687_e5e1f35d04f6"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#nsc"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -784,10 +778,13 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                                 <rdf:first>
                                                                     <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_8ff3d81b_4379_4068_9676_17511a5d7af4"/>
-                                                                        <swrl:argument1 rdf:resource="urn:swrl#c"/>
-                                                                        <swrl:argument2 rdf:resource="urn:swrl#szc"/>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                                        <swrl:classPredicate>
+                                                                            <owl:Class>
+                                                                                <owl:complementOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7"/>
+                                                                            </owl:Class>
+                                                                        </swrl:classPredicate>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl#v"/>
                                                                     </rdf:Description>
                                                                 </rdf:first>
                                                                 <rdf:rest>
@@ -796,9 +793,9 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
                                                                         <rdf:first>
                                                                             <rdf:Description>
                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81"/>
-                                                                                <swrl:argument1 rdf:resource="urn:swrl#p"/>
-                                                                                <swrl:argument2 rdf:resource="urn:swrl#c"/>
+                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_8ff3d81b_4379_4068_9676_17511a5d7af4"/>
+                                                                                <swrl:argument1 rdf:resource="urn:swrl#c"/>
+                                                                                <swrl:argument2 rdf:resource="urn:swrl#nsc"/>
                                                                             </rdf:Description>
                                                                         </rdf:first>
                                                                         <rdf:rest>
@@ -806,10 +803,10 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                                                 <rdf:first>
                                                                                     <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_072434e8_7217_4a05_aab1_9e120e56792b"/>
-                                                                                        <swrl:argument1 rdf:resource="urn:swrl#szc"/>
-                                                                                        <swrl:argument2>red</swrl:argument2>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81"/>
+                                                                                        <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                                                                                        <swrl:argument2 rdf:resource="urn:swrl#c"/>
                                                                                     </rdf:Description>
                                                                                 </rdf:first>
                                                                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -837,155 +834,9 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_a05d4549_e6cb_417c_9847_35de784c85c3"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_082008b8_bff2_42c9_87a6_7f533ec0962c"/>
                         <swrl:argument1 rdf:resource="urn:swrl#p"/>
                         <swrl:argument2 rdf:resource="urn:swrl#p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Everybody has to stop if there is a vehicle on te zebra</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vehicle_On_Crossing_Zebra</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_ef08dcee_090a_41c7_a687_e5e1f35d04f6"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#nsc"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#v"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#p"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5034f8b2_e7b1_43d7_a03d_d80304539125"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#c"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_837b0b83_49df_4918_8a16_3b8ec01324f6"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#s"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_07878d9e_7e65_4d56_9470_da7c50c71e38"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#p"/>
-                                                                <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                <rdf:first>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81"/>
-                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#c"/>
-                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#s"/>
-                                                                    </rdf:Description>
-                                                                </rdf:first>
-                                                                <rdf:rest>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                        <rdf:first>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_8ff3d81b_4379_4068_9676_17511a5d7af4"/>
-                                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#c"/>
-                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#nsc"/>
-                                                                            </rdf:Description>
-                                                                        </rdf:first>
-                                                                        <rdf:rest>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                <rdf:first>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81"/>
-                                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#p"/>
-                                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#c"/>
-                                                                                    </rdf:Description>
-                                                                                </rdf:first>
-                                                                                <rdf:rest>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                        <rdf:first>
-                                                                                            <rdf:Description>
-                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81"/>
-                                                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#v"/>
-                                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#nsc"/>
-                                                                                            </rdf:Description>
-                                                                                        </rdf:first>
-                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                                    </rdf:Description>
-                                                                                </rdf:rest>
-                                                                            </rdf:Description>
-                                                                        </rdf:rest>
-                                                                    </rdf:Description>
-                                                                </rdf:rest>
-                                                            </rdf:Description>
-                                                        </rdf:rest>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_a05d4549_e6cb_417c_9847_35de784c85c3"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#p"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#p"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1128,8 +979,8 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All Pedestrians can cross if no vehicle is coming</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pedestrian_Crossing_NSZebra_No_Vehicles</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Everybody has to stop if there is a vehicle on te zebra</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vehicle_On_Crossing_Zebra</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -1138,7 +989,7 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_ef08dcee_090a_41c7_a687_e5e1f35d04f6"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#nsc"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#nsc"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -1147,8 +998,8 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#p"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#v"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -1157,8 +1008,8 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5034f8b2_e7b1_43d7_a03d_d80304539125"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#c"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#p"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest>
@@ -1167,8 +1018,8 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_837b0b83_49df_4918_8a16_3b8ec01324f6"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#s"/>
+                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5034f8b2_e7b1_43d7_a03d_d80304539125"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#c"/>
                                             </rdf:Description>
                                         </rdf:first>
                                         <rdf:rest>
@@ -1176,10 +1027,9 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                 <rdf:first>
                                                     <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_07878d9e_7e65_4d56_9470_da7c50c71e38"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#p"/>
-                                                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_837b0b83_49df_4918_8a16_3b8ec01324f6"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#s"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                                 <rdf:rest>
@@ -1187,10 +1037,10 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                         <rdf:first>
                                                             <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#c"/>
-                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#s"/>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_07878d9e_7e65_4d56_9470_da7c50c71e38"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                                                                <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
                                                             </rdf:Description>
                                                         </rdf:first>
                                                         <rdf:rest>
@@ -1199,9 +1049,9 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
                                                                 <rdf:first>
                                                                     <rdf:Description>
                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_8ff3d81b_4379_4068_9676_17511a5d7af4"/>
-                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#c"/>
-                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#nsc"/>
+                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl#c"/>
+                                                                        <swrl:argument2 rdf:resource="urn:swrl#s"/>
                                                                     </rdf:Description>
                                                                 </rdf:first>
                                                                 <rdf:rest>
@@ -1210,12 +1060,38 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
                                                                         <rdf:first>
                                                                             <rdf:Description>
                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81"/>
-                                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#p"/>
-                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#c"/>
+                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_8ff3d81b_4379_4068_9676_17511a5d7af4"/>
+                                                                                <swrl:argument1 rdf:resource="urn:swrl#c"/>
+                                                                                <swrl:argument2 rdf:resource="urn:swrl#nsc"/>
                                                                             </rdf:Description>
                                                                         </rdf:first>
-                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81"/>
+                                                                                        <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                                                                                        <swrl:argument2 rdf:resource="urn:swrl#c"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                        <rdf:first>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81"/>
+                                                                                                <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                                                                <swrl:argument2 rdf:resource="urn:swrl#nsc"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:first>
+                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
                                                                     </rdf:Description>
                                                                 </rdf:rest>
                                                             </rdf:Description>
@@ -1238,9 +1114,140 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_082008b8_bff2_42c9_87a6_7f533ec0962c"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#p"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#p"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_a05d4549_e6cb_417c_9847_35de784c85c3"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_78cd4b2d_3ba1_4244_a3c8_2cc2a7c97c4d"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#szc"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5034f8b2_e7b1_43d7_a03d_d80304539125"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#c"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_837b0b83_49df_4918_8a16_3b8ec01324f6"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#s"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_07878d9e_7e65_4d56_9470_da7c50c71e38"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                                                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#c"/>
+                                                                <swrl:argument2 rdf:resource="urn:swrl#s"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_8ff3d81b_4379_4068_9676_17511a5d7af4"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl#c"/>
+                                                                        <swrl:argument2 rdf:resource="urn:swrl#szc"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81"/>
+                                                                                <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                                                                                <swrl:argument2 rdf:resource="urn:swrl#c"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_072434e8_7217_4a05_aab1_9e120e56792b"/>
+                                                                                        <swrl:argument1 rdf:resource="urn:swrl#szc"/>
+                                                                                        <swrl:argument2>red</swrl:argument2>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_a05d4549_e6cb_417c_9847_35de784c85c3"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#p"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
