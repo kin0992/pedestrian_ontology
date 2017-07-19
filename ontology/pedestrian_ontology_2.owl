@@ -125,10 +125,7 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
     <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_2c899531_2a90_409e_bb88_b71f7840a009 -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_2c899531_2a90_409e_bb88_b71f7840a009">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="it">PhisicalCapability</rdfs:label>
     </owl:DatatypeProperty>
@@ -138,10 +135,7 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
     <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_3047dd8c_5afb_459a_a6a0_04203e637bf0 -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_3047dd8c_5afb_459a_a6a0_04203e637bf0">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="it">PropensityToRisk</rdfs:label>
     </owl:DatatypeProperty>
@@ -151,10 +145,7 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
     <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_4189dad7_163a_4636_b36d_c41959ba8ade -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_4189dad7_163a_4636_b36d_c41959ba8ade">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment>Degree of compliance to rules</rdfs:comment>
         <rdfs:label xml:lang="it">Compliance</rdfs:label>
@@ -186,10 +177,7 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
     <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_5396ad74_b821_47f0_baf1_61ae7688de99 -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_5396ad74_b821_47f0_baf1_61ae7688de99">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="it">CognitiveCapacity</rdfs:label>
     </owl:DatatypeProperty>
@@ -220,10 +208,7 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
     <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_de4b17f3_5a0a_4956_9aef_102320a870b7 -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_de4b17f3_5a0a_4956_9aef_102320a870b7">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="it">Assertivity</rdfs:label>
     </owl:DatatypeProperty>
