@@ -1,0 +1,497 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#"
+     xml:base="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_8ff3d81b_4379_4068_9676_17511a5d7af4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_8ff3d81b_4379_4068_9676_17511a5d7af4">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5ccce98e_a46b_450b_a70d_ff954e2daf69"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_4411107b_00c8_45e2_9b49_000c97580f7d"/>
+        <rdfs:label xml:lang="it">IsCloseTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5ccce98e_a46b_450b_a70d_ff954e2daf69"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_4411107b_00c8_45e2_9b49_000c97580f7d"/>
+        <rdfs:label xml:lang="it">IsOn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ff9ab13f_79f1_4398_b21c_df37ab4c8987 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ff9ab13f_79f1_4398_b21c_df37ab4c8987">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5ccce98e_a46b_450b_a70d_ff954e2daf69"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_4411107b_00c8_45e2_9b49_000c97580f7d"/>
+        <rdfs:label xml:lang="it">IsToReach</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_072434e8_7217_4a05_aab1_9e120e56792b -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_072434e8_7217_4a05_aab1_9e120e56792b">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_78cd4b2d_3ba1_4244_a3c8_2cc2a7c97c4d"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="it">TrafficLight</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_07878d9e_7e65_4d56_9470_da7c50c71e38 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_07878d9e_7e65_4d56_9470_da7c50c71e38">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="it">WantsToCross</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_197ae228_0a4e_4b3d_b640_faba753df04f -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_197ae228_0a4e_4b3d_b640_faba753df04f">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_07878d9e_7e65_4d56_9470_da7c50c71e38"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="it">HasToStop</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_2c899531_2a90_409e_bb88_b71f7840a009 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_2c899531_2a90_409e_bb88_b71f7840a009">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label xml:lang="it">PhisicalCapability</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_3047dd8c_5afb_459a_a6a0_04203e637bf0 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_3047dd8c_5afb_459a_a6a0_04203e637bf0">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label xml:lang="it">PropensityToRisk</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_4189dad7_163a_4636_b36d_c41959ba8ade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_4189dad7_163a_4636_b36d_c41959ba8ade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>Degree of compliance to rules</rdfs:comment>
+        <rdfs:label xml:lang="it">Compliance</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_48ff7c12_691d_4117_9dab_46d42bbc7f93 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_48ff7c12_691d_4117_9dab_46d42bbc7f93">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5034f8b2_e7b1_43d7_a03d_d80304539125"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label xml:lang="it">Radius</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_4e6e26c6_2242_44b9_8df7_36d4b77aec2a -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_4e6e26c6_2242_44b9_8df7_36d4b77aec2a">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_07878d9e_7e65_4d56_9470_da7c50c71e38"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment>This property is True if the traffic light is green or the pedestrian has decided to cross the street, false otherwise.</rdfs:comment>
+        <rdfs:label xml:lang="it">CanGo</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_5396ad74_b821_47f0_baf1_61ae7688de99 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_5396ad74_b821_47f0_baf1_61ae7688de99">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label xml:lang="it">CognitiveCapacity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_8fb21f3a_9a1c_4a8a_be01_caea846c269c -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_8fb21f3a_9a1c_4a8a_be01_caea846c269c">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_07878d9e_7e65_4d56_9470_da7c50c71e38"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_cb123cc7_76d3_4397_ba58_3c325c9b925b"/>
+        <rdfs:label xml:lang="it">HasToAccelerate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_cb123cc7_76d3_4397_ba58_3c325c9b925b -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_cb123cc7_76d3_4397_ba58_3c325c9b925b">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_07878d9e_7e65_4d56_9470_da7c50c71e38"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="it">HasToDecelerate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_de4b17f3_5a0a_4956_9aef_102320a870b7 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_de4b17f3_5a0a_4956_9aef_102320a870b7">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label xml:lang="it">Assertivity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_e3729148_617c_46a1_8ff5_732235f49918 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLDataProperty_e3729148_617c_46a1_8ff5_732235f49918">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_bea5ef49_caf9_440a_afb0_7dffba2ac64c"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="it">InEmergency</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_035ad711_ee2f_4d5a_afa7_e8cdfd716d80 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_035ad711_ee2f_4d5a_afa7_e8cdfd716d80">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7"/>
+        <rdfs:label xml:lang="it">Car</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5ccce98e_a46b_450b_a70d_ff954e2daf69"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7"/>
+        <rdfs:label xml:lang="it">Pedestrian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
+        <rdfs:label xml:lang="it">Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_2975db82_cfae_450c_8416_e24d4ce5375e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_2975db82_cfae_450c_8416_e24d4ce5375e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7"/>
+        <rdfs:label xml:lang="it">Motorbike</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_3b9b1e59_fa11_4582_964f_dfb97896147a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_3b9b1e59_fa11_4582_964f_dfb97896147a">
+        <rdfs:label xml:lang="it">Context_Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_4411107b_00c8_45e2_9b49_000c97580f7d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_4411107b_00c8_45e2_9b49_000c97580f7d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_3b9b1e59_fa11_4582_964f_dfb97896147a"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5ccce98e_a46b_450b_a70d_ff954e2daf69"/>
+        <rdfs:label xml:lang="it">Static_Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
+        <rdfs:label xml:lang="it">Adult</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5034f8b2_e7b1_43d7_a03d_d80304539125 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5034f8b2_e7b1_43d7_a03d_d80304539125">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_8698d7d9_2f86_4db4_8f87_43fcf898dd1f"/>
+        <rdfs:label xml:lang="it">Curb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_50e4c624_0908_4c77_80fa_0ed7f8e829e0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_50e4c624_0908_4c77_80fa_0ed7f8e829e0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_4411107b_00c8_45e2_9b49_000c97580f7d"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_8698d7d9_2f86_4db4_8f87_43fcf898dd1f"/>
+        <rdfs:label xml:lang="it">Road_Intersection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5b778109_ed50_41c3_ac60_8f71bf3b9d40 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5b778109_ed50_41c3_ac60_8f71bf3b9d40">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7"/>
+        <rdfs:label xml:lang="it">Van</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5ccce98e_a46b_450b_a70d_ff954e2daf69 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5ccce98e_a46b_450b_a70d_ff954e2daf69">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_3b9b1e59_fa11_4582_964f_dfb97896147a"/>
+        <rdfs:label xml:lang="it">Mobile_Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f31f083_e65c_4ff6_8fc2_1436e1a55c8c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f31f083_e65c_4ff6_8fc2_1436e1a55c8c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7"/>
+        <rdfs:label xml:lang="it">Tram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
+        <rdfs:label xml:lang="it">Young</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5ccce98e_a46b_450b_a70d_ff954e2daf69"/>
+        <rdfs:label xml:lang="it">Vehicle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_7485aa82_2603_4fdf_9b1e_b7afb999ee52 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_7485aa82_2603_4fdf_9b1e_b7afb999ee52">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7"/>
+        <rdfs:label xml:lang="it">Truck</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_78cd4b2d_3ba1_4244_a3c8_2cc2a7c97c4d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_78cd4b2d_3ba1_4244_a3c8_2cc2a7c97c4d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_50e4c624_0908_4c77_80fa_0ed7f8e829e0"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_ef08dcee_090a_41c7_a687_e5e1f35d04f6"/>
+        <rdfs:label xml:lang="it">Signalized_Zebra_Crossing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_7fd1adbc_e752_4206_be90_e2213204d8a4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_7fd1adbc_e752_4206_be90_e2213204d8a4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7"/>
+        <rdfs:label xml:lang="it">Bicycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_837b0b83_49df_4918_8a16_3b8ec01324f6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_837b0b83_49df_4918_8a16_3b8ec01324f6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_8698d7d9_2f86_4db4_8f87_43fcf898dd1f"/>
+        <rdfs:label xml:lang="it">Sidewalk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_8698d7d9_2f86_4db4_8f87_43fcf898dd1f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_8698d7d9_2f86_4db4_8f87_43fcf898dd1f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_4411107b_00c8_45e2_9b49_000c97580f7d"/>
+        <rdfs:label xml:lang="it">Road_Infrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
+        <rdfs:label xml:lang="it">Elderly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_bea5ef49_caf9_440a_afb0_7dffba2ac64c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_bea5ef49_caf9_440a_afb0_7dffba2ac64c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7"/>
+        <rdfs:label xml:lang="it">Emergency_Vehicle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_d152e302_f272_4c86_8357_05630d0b9d7f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_d152e302_f272_4c86_8357_05630d0b9d7f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_8698d7d9_2f86_4db4_8f87_43fcf898dd1f"/>
+        <rdfs:label xml:lang="it">Road_Lane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_ef08dcee_090a_41c7_a687_e5e1f35d04f6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_ef08dcee_090a_41c7_a687_e5e1f35d04f6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_50e4c624_0908_4c77_80fa_0ed7f8e829e0"/>
+        <rdfs:label xml:lang="it">No_Signalized_Crossing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_035ad711_ee2f_4d5a_afa7_e8cdfd716d80"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_2975db82_cfae_450c_8416_e24d4ce5375e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5b778109_ed50_41c3_ac60_8f71bf3b9d40"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f31f083_e65c_4ff6_8fc2_1436e1a55c8c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_7485aa82_2603_4fdf_9b1e_b7afb999ee52"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_7fd1adbc_e752_4206_be90_e2213204d8a4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_bea5ef49_caf9_440a_afb0_7dffba2ac64c"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_1e1173a4_e1bf_4c49_aca6_27f4132c898a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_44518069_1be4_4218_9155_1485e0f78ad2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5f8f68d5_363d_42ec_a299_c6db4fc3bc17"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_b8989717_c197_4f07_b97f_f62b9af371f5"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_5034f8b2_e7b1_43d7_a03d_d80304539125"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_837b0b83_49df_4918_8a16_3b8ec01324f6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_d152e302_f272_4c86_8357_05630d0b9d7f"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
