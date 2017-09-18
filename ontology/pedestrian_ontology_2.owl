@@ -109,7 +109,6 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
     <!-- http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_3b9b1e59_fa11_4582_964f_dfb97896147a"/>
@@ -562,6 +561,7 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_71b277a8_c3e5_410b_a648_c391339b3f15">
         <rdf:type rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7"/>
+        <OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_39edde04_0b63_4953_97ad_bc1a30b61438"/>
         <OWLDataProperty_8b101ffb_e6cb_4a2b_868b_2cb115893017 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000</OWLDataProperty_8b101ffb_e6cb_4a2b_868b_2cb115893017>
         <OWLDataProperty_e10b9a3d_f1f3_40e8_bce6_aea673da1584 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</OWLDataProperty_e10b9a3d_f1f3_40e8_bce6_aea673da1584>
         <rdfs:label xml:lang="it">FarFarCar</rdfs:label>
@@ -603,8 +603,8 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_b732aec3_6266_4c50_9c2b_9e66411abc48">
         <rdf:type rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_666033eb_0beb_49dd_b717_e9828a9df9c7"/>
         <OWLObjectProperty_ccd74887_9ca4_467e_b922_3a6083aa6f81 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_39edde04_0b63_4953_97ad_bc1a30b61438"/>
-        <OWLDataProperty_8b101ffb_e6cb_4a2b_868b_2cb115893017 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</OWLDataProperty_8b101ffb_e6cb_4a2b_868b_2cb115893017>
-        <OWLDataProperty_e10b9a3d_f1f3_40e8_bce6_aea673da1584 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</OWLDataProperty_e10b9a3d_f1f3_40e8_bce6_aea673da1584>
+        <OWLDataProperty_8b101ffb_e6cb_4a2b_868b_2cb115893017 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</OWLDataProperty_8b101ffb_e6cb_4a2b_868b_2cb115893017>
+        <OWLDataProperty_e10b9a3d_f1f3_40e8_bce6_aea673da1584 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</OWLDataProperty_e10b9a3d_f1f3_40e8_bce6_aea673da1584>
         <rdfs:label xml:lang="it">Car</rdfs:label>
     </owl:NamedIndividual>
     
@@ -644,6 +644,7 @@ This property has an higher priority than HasToGo property.</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_f8f65aaf_2fba_4bd3_8542_b1a7bf7882fe">
         <rdf:type rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLClass_11e4e8fd_b15f_4822_9238_5556313d1442"/>
+        <OWLObjectProperty_27d447db_4e1a_4977_974c_a3111e3251c1 rdf:resource="http://www.semanticweb.org/gravma/ontologies/2017/6/untitled-ontology-29#OWLNamedIndividual_4b043aef_1274_49ab_9622_622ffb5b4c59"/>
         <OWLDataProperty_8751b796_679d_49ab_ba6d_9fd592b9e28b rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</OWLDataProperty_8751b796_679d_49ab_ba6d_9fd592b9e28b>
         <rdfs:label xml:lang="it">Harold</rdfs:label>
     </owl:NamedIndividual>
